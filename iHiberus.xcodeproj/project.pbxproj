@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C323B252C35562200B5550E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C323B242C35562200B5550E /* MainView.swift */; };
+		3C323B292C355E9A00B5550E /* HiberusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C323B282C355E9A00B5550E /* HiberusView.swift */; };
+		3C323B2B2C3565C400B5550E /* EmpresaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C323B2A2C3565C400B5550E /* EmpresaDetailView.swift */; };
+		3C323B2E2C356A6000B5550E /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C323B2D2C356A6000B5550E /* CellView.swift */; };
+		3C323B302C356AFA00B5550E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C323B2F2C356AFA00B5550E /* HeaderView.swift */; };
+		3C660D992C33FC1100CD6A9D /* iHiberusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C660D982C33FC1100CD6A9D /* iHiberusApp.swift */; };
+		3C660D9B2C33FC1100CD6A9D /* EmpresasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C660D9A2C33FC1100CD6A9D /* EmpresasView.swift */; };
+		3C660D9D2C33FC1200CD6A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C660D9C2C33FC1200CD6A9D /* Assets.xcassets */; };
+		3C660DA02C33FC1200CD6A9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C660D9F2C33FC1200CD6A9D /* Preview Assets.xcassets */; };
+		3C660DA82C34050700CD6A9D /* Empresa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C660DA72C34050700CD6A9D /* Empresa.swift */; };
+		3C660DAA2C340C6700CD6A9D /* empresasTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C660DA92C340C6700CD6A9D /* empresasTest.json */; };
+		3C660DAD2C34106A00CD6A9D /* DataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C660DAC2C34106A00CD6A9D /* DataInteractor.swift */; };
+		3C660DB02C34116300CD6A9D /* empresas.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C660DAF2C34116300CD6A9D /* empresas.json */; };
+		3C660DB52C34128000CD6A9D /* EmpresasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C660DB42C34128000CD6A9D /* EmpresasViewModel.swift */; };
+		3C660DB72C34133C00CD6A9D /* TestInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C660DB62C34133C00CD6A9D /* TestInteractor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C323B242C35562200B5550E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3C323B282C355E9A00B5550E /* HiberusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiberusView.swift; sourceTree = "<group>"; };
+		3C323B2A2C3565C400B5550E /* EmpresaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpresaDetailView.swift; sourceTree = "<group>"; };
+		3C323B2D2C356A6000B5550E /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		3C323B2F2C356AFA00B5550E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		3C660D952C33FC1100CD6A9D /* iHiberus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHiberus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C660D982C33FC1100CD6A9D /* iHiberusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHiberusApp.swift; sourceTree = "<group>"; };
+		3C660D9A2C33FC1100CD6A9D /* EmpresasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpresasView.swift; sourceTree = "<group>"; };
+		3C660D9C2C33FC1200CD6A9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C660D9F2C33FC1200CD6A9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C660DA72C34050700CD6A9D /* Empresa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empresa.swift; sourceTree = "<group>"; };
+		3C660DA92C340C6700CD6A9D /* empresasTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empresasTest.json; sourceTree = "<group>"; };
+		3C660DAC2C34106A00CD6A9D /* DataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInteractor.swift; sourceTree = "<group>"; };
+		3C660DAF2C34116300CD6A9D /* empresas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empresas.json; sourceTree = "<group>"; };
+		3C660DB42C34128000CD6A9D /* EmpresasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpresasViewModel.swift; sourceTree = "<group>"; };
+		3C660DB62C34133C00CD6A9D /* TestInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestInteractor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C660D922C33FC1100CD6A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C323B2C2C356A4400B5550E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3C323B2D2C356A6000B5550E /* CellView.swift */,
+				3C323B2F2C356AFA00B5550E /* HeaderView.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		3C660D8C2C33FC1100CD6A9D = {
+			isa = PBXGroup;
+			children = (
+				3C660D972C33FC1100CD6A9D /* iHiberus */,
+				3C660D962C33FC1100CD6A9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C660D962C33FC1100CD6A9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C660D952C33FC1100CD6A9D /* iHiberus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C660D972C33FC1100CD6A9D /* iHiberus */ = {
+			isa = PBXGroup;
+			children = (
+				3C660D982C33FC1100CD6A9D /* iHiberusApp.swift */,
+				3C660DB82C34145600CD6A9D /* Views */,
+				3C660DB12C34124700CD6A9D /* ViewModel */,
+				3C660DAB2C34105200CD6A9D /* Interactor */,
+				3C660DA62C3404EC00CD6A9D /* Models */,
+				3C323B2C2C356A4400B5550E /* Components */,
+				3C660D9C2C33FC1200CD6A9D /* Assets.xcassets */,
+				3C660DAF2C34116300CD6A9D /* empresas.json */,
+				3C660D9E2C33FC1200CD6A9D /* Preview Content */,
+			);
+			path = iHiberus;
+			sourceTree = "<group>";
+		};
+		3C660D9E2C33FC1200CD6A9D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C660DA92C340C6700CD6A9D /* empresasTest.json */,
+				3C660D9F2C33FC1200CD6A9D /* Preview Assets.xcassets */,
+				3C660DB62C34133C00CD6A9D /* TestInteractor.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C660DA62C3404EC00CD6A9D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C660DA72C34050700CD6A9D /* Empresa.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3C660DAB2C34105200CD6A9D /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3C660DAC2C34106A00CD6A9D /* DataInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		3C660DB12C34124700CD6A9D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3C660DB42C34128000CD6A9D /* EmpresasViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		3C660DB82C34145600CD6A9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C323B242C35562200B5550E /* MainView.swift */,
+				3C323B282C355E9A00B5550E /* HiberusView.swift */,
+				3C660D9A2C33FC1100CD6A9D /* EmpresasView.swift */,
+				3C323B2A2C3565C400B5550E /* EmpresaDetailView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C660D942C33FC1100CD6A9D /* iHiberus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C660DA32C33FC1200CD6A9D /* Build configuration list for PBXNativeTarget "iHiberus" */;
+			buildPhases = (
+				3C660D912C33FC1100CD6A9D /* Sources */,
+				3C660D922C33FC1100CD6A9D /* Frameworks */,
+				3C660D932C33FC1100CD6A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iHiberus;
+			productName = iHiberus;
+			productReference = 3C660D952C33FC1100CD6A9D /* iHiberus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C660D8D2C33FC1100CD6A9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3C660D942C33FC1100CD6A9D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 3C660D902C33FC1100CD6A9D /* Build configuration list for PBXProject "iHiberus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C660D8C2C33FC1100CD6A9D;
+			productRefGroup = 3C660D962C33FC1100CD6A9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C660D942C33FC1100CD6A9D /* iHiberus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C660D932C33FC1100CD6A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C660DB02C34116300CD6A9D /* empresas.json in Resources */,
+				3C660DAA2C340C6700CD6A9D /* empresasTest.json in Resources */,
+				3C660DA02C33FC1200CD6A9D /* Preview Assets.xcassets in Resources */,
+				3C660D9D2C33FC1200CD6A9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C660D912C33FC1100CD6A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C660DAD2C34106A00CD6A9D /* DataInteractor.swift in Sources */,
+				3C323B252C35562200B5550E /* MainView.swift in Sources */,
+				3C660DB52C34128000CD6A9D /* EmpresasViewModel.swift in Sources */,
+				3C660DA82C34050700CD6A9D /* Empresa.swift in Sources */,
+				3C323B292C355E9A00B5550E /* HiberusView.swift in Sources */,
+				3C660D9B2C33FC1100CD6A9D /* EmpresasView.swift in Sources */,
+				3C323B2E2C356A6000B5550E /* CellView.swift in Sources */,
+				3C323B302C356AFA00B5550E /* HeaderView.swift in Sources */,
+				3C660DB72C34133C00CD6A9D /* TestInteractor.swift in Sources */,
+				3C660D992C33FC1100CD6A9D /* iHiberusApp.swift in Sources */,
+				3C323B2B2C3565C400B5550E /* EmpresaDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3C660DA12C33FC1200CD6A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C660DA22C33FC1200CD6A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C660DA42C33FC1200CD6A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iHiberus/Preview Content\"";
+				DEVELOPMENT_TEAM = K62327QFK2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yerycastro.iHiberus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C660DA52C33FC1200CD6A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iHiberus/Preview Content\"";
+				DEVELOPMENT_TEAM = K62327QFK2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yerycastro.iHiberus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C660D902C33FC1100CD6A9D /* Build configuration list for PBXProject "iHiberus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C660DA12C33FC1200CD6A9D /* Debug */,
+				3C660DA22C33FC1200CD6A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C660DA32C33FC1200CD6A9D /* Build configuration list for PBXNativeTarget "iHiberus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C660DA42C33FC1200CD6A9D /* Debug */,
+				3C660DA52C33FC1200CD6A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C660D8D2C33FC1100CD6A9D /* Project object */;
+}
